@@ -41,7 +41,7 @@
  			if(audioSupported) { $('body').append(raptorAudioMarkup); }
 			var raptor = $('#elRaptor').css({
 				"position":"fixed",
-				"bottom": "-700px",
+				"bottom": "-900px",
 				"right" : "0",
 				"display" : "block"
 			})
@@ -70,7 +70,7 @@
 							"right" : offset
 						}, 2200, function() {
 							raptor = $('#elRaptor').css({
-								"bottom": "-700px",
+								"bottom": "-900px",
 								"right" : "0"
 							})
 							locked = false;
